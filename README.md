@@ -1,8 +1,5 @@
 # 欢迎来到[Timothy's Blog](ti-fdgg.github.io)！
 
-> ## 内容导航
-> ### 热门内容
-> - *待补充...*
 
 > ### 关于本站
 > - 博客使用 Hexo 搭建
@@ -17,6 +14,6 @@
 > - *待补充...*
 > - 详见[友情链接](https://ti-fdgg.github.io/friend/)
 
-> ## 联系作者
+> ### 联系作者
 > - 邮箱：chenmfwyyx@163.com
 > - GitHub：[Ti-FDGG](https://github.com/Ti-FDGG/)
