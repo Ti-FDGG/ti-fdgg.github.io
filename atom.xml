@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Timothy&#39;s Blog</title>
+  <icon>https://ti-fdgg.github.io/icon.png</icon>
+  <subtitle>CS新人和东方厨</subtitle>
+  <link href="https://ti-fdgg.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ti-fdgg.github.io/"/>
+  <updated>2025-02-27T12:50:15.883Z</updated>
+  <id>https://ti-fdgg.github.io/</id>
+  
+  <author>
+    <name>Mothy Ti</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>骨折受伤后的事务处理</title>
+    <link href="https://ti-fdgg.github.io/2025/02/27/affairs-after-got-injured/"/>
+    <id>https://ti-fdgg.github.io/2025/02/27/affairs-after-got-injured/</id>
+    <published>2025-02-27T12:43:26.000Z</published>
+    <updated>2025-02-27T12:50:15.883Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://ti-fdgg.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="骨折" scheme="https://ti-fdgg.github.io/tags/%E9%AA%A8%E6%8A%98/"/>
+    
+    <category term="缓考" scheme="https://ti-fdgg.github.io/tags/%E7%BC%93%E8%80%83/"/>
+    
+    <category term="重考/重修/补考" scheme="https://ti-fdgg.github.io/tags/%E9%87%8D%E8%80%83-%E9%87%8D%E4%BF%AE-%E8%A1%A5%E8%80%83/"/>
+    
+    <category term="公费医疗报销" scheme="https://ti-fdgg.github.io/tags/%E5%85%AC%E8%B4%B9%E5%8C%BB%E7%96%97%E6%8A%A5%E9%94%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>硬链接和软链接</title>
+    <link href="https://ti-fdgg.github.io/2025/02/07/HardLink-and-SymbolicLink/"/>
+    <id>https://ti-fdgg.github.io/2025/02/07/HardLink-and-SymbolicLink/</id>
+    <published>2025-02-07T08:52:51.000Z</published>
+    <updated>2025-02-09T01:49:30.253Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
+    
+    <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
+    
+    <category term="ChatGPT生成" scheme="https://ti-fdgg.github.io/tags/ChatGPT%E7%94%9F%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 学习笔记</title>
+    <link href="https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/"/>
+    <id>https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/</id>
+    <published>2025-02-07T07:52:51.000Z</published>
+    <updated>2025-02-16T06:57:02.923Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;容器技术基本概念&lt;/strong&gt;&lt;br</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
+    
+    <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim 学习笔记</title>
+    <link href="https://ti-fdgg.github.io/2025/02/07/Vim-Learning-Notes/"/>
+    <id>https://ti-fdgg.github.io/2025/02/07/Vim-Learning-Notes/</id>
+    <published>2025-02-07T07:50:35.000Z</published>
+    <updated>2025-02-09T01:49:26.888Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
+    
+    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 学习笔记</title>
+    <link href="https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/"/>
+    <id>https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/</id>
+    <published>2025-02-05T05:41:58.000Z</published>
+    <updated>2025-02-10T08:59:37.711Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主要通过&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
+    
+    <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
+    
+    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
+    
+    <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”</title>
+    <link href="https://ti-fdgg.github.io/2025/02/04/SpawnFailed/"/>
+    <id>https://ti-fdgg.github.io/2025/02/04/SpawnFailed/</id>
+    <published>2025-02-04T05:53:50.000Z</published>
+    <updated>2025-02-10T16:59:39.493Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://ti-fdgg.github.io/2024/08/18/questions-and-solutions-while-bulid-blog/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;报错信息&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://ti-fdgg.github.io/tags/Hexo/"/>
+    
+    <category term="博客/Blog" scheme="https://ti-fdgg.github.io/tags/%E5%8D%9A%E5%AE%A2-Blog/"/>
+    
+    <category term="报错/Error" scheme="https://ti-fdgg.github.io/tags/%E6%8A%A5%E9%94%99-Error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>骨折回忆录</title>
+    <link href="https://ti-fdgg.github.io/2025/02/04/%E9%AA%A8%E6%8A%98%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    <id>https://ti-fdgg.github.io/2025/02/04/%E9%AA%A8%E6%8A%98%E5%9B%9E%E5%BF%86%E5%BD%95/</id>
+    <published>2025-02-04T02:18:03.000Z</published>
+    <updated>2025-02-27T12:41:46.573Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;主要更新记录&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#主要更新记录&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://ti-fdgg.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="骨折" scheme="https://ti-fdgg.github.io/tags/%E9%AA%A8%E6%8A%98/"/>
+    
+    <category term="回忆" scheme="https://ti-fdgg.github.io/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新版Outlook到底怎么用</title>
+    <link href="https://ti-fdgg.github.io/2025/02/03/how-to-use-the-new-Outlook/"/>
+    <id>https://ti-fdgg.github.io/2025/02/03/how-to-use-the-new-Outlook/</id>
+    <published>2025-02-03T04:08:26.000Z</published>
+    <updated>2025-02-09T01:49:47.917Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;那我问你&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#那我问你&quot;&gt;&lt;/a&gt; 那我问你&lt;/h2&gt;
+&lt;p&gt;界面挺好看的，但是为什么导个日历死活导不进去&lt;br /&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://ti-fdgg.github.io/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Outlook" scheme="https://ti-fdgg.github.io/tags/Outlook/"/>
+    
+    <category term="吐槽" scheme="https://ti-fdgg.github.io/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些搭建博客时遇上的问题和对应的解决方案</title>
+    <link href="https://ti-fdgg.github.io/2024/08/18/questions-and-solutions-while-bulid-blog/"/>
+    <id>https://ti-fdgg.github.io/2024/08/18/questions-and-solutions-while-bulid-blog/</id>
+    <published>2024-08-17T16:00:00.000Z</published>
+    <updated>2025-02-09T01:49:20.812Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;使用&lt;a href=&quot;https://docs.github.com/zh/pages&quot;&gt;&lt;strong&gt;GitHub</summary>
+        
+      
+    
+    
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://ti-fdgg.github.io/tags/Hexo/"/>
+    
+    <category term="博客/Blog" scheme="https://ti-fdgg.github.io/tags/%E5%8D%9A%E5%AE%A2-Blog/"/>
+    
+  </entry>
+  
+</feed>
