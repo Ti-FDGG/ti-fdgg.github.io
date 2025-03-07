@@ -6,7 +6,7 @@
   <link href="https://ti-fdgg.github.io/atom.xml" rel="self"/>
   
   <link href="https://ti-fdgg.github.io/"/>
-  <updated>2025-02-27T12:50:15.883Z</updated>
+  <updated>2025-03-07T18:46:47.173Z</updated>
   <id>https://ti-fdgg.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ti-fdgg.github.io/2025/02/27/affairs-after-got-injured/"/>
     <id>https://ti-fdgg.github.io/2025/02/27/affairs-after-got-injured/</id>
     <published>2025-02-27T12:43:26.000Z</published>
-    <updated>2025-02-27T12:50:15.883Z</updated>
+    <updated>2025-03-07T18:46:47.173Z</updated>
     
     
       
@@ -52,14 +52,18 @@
     <link href="https://ti-fdgg.github.io/2025/02/07/HardLink-and-SymbolicLink/"/>
     <id>https://ti-fdgg.github.io/2025/02/07/HardLink-and-SymbolicLink/</id>
     <published>2025-02-07T08:52:51.000Z</published>
-    <updated>2025-02-09T01:49:30.253Z</updated>
+    <updated>2025-03-07T17:11:37.051Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;/2025/02/05/Linux-Learning-Notes/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本篇文章是直接复制的ChatGPT的回复。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 Linux 和 Unix</summary>
         
       
     
@@ -83,14 +87,14 @@
     <link href="https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/"/>
     <id>https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/</id>
     <published>2025-02-07T07:52:51.000Z</published>
-    <updated>2025-02-16T06:57:02.923Z</updated>
+    <updated>2025-03-07T17:11:29.913Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;/2025/02/05/Linux-Learning-Notes/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;容器技术基本概念&lt;/strong&gt;&lt;br</summary>
         
@@ -114,7 +118,7 @@
     <link href="https://ti-fdgg.github.io/2025/02/07/Vim-Learning-Notes/"/>
     <id>https://ti-fdgg.github.io/2025/02/07/Vim-Learning-Notes/</id>
     <published>2025-02-07T07:50:35.000Z</published>
-    <updated>2025-02-09T01:49:26.888Z</updated>
+    <updated>2025-03-07T17:12:02.586Z</updated>
     
     
       
@@ -143,7 +147,7 @@
     <link href="https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/"/>
     <id>https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/</id>
     <published>2025-02-05T05:41:58.000Z</published>
-    <updated>2025-02-10T08:59:37.711Z</updated>
+    <updated>2025-03-07T17:12:28.664Z</updated>
     
     
       
@@ -165,9 +169,9 @@
     
     <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
     
-    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
-    
     <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
+    
+    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
     
   </entry>
   
@@ -176,15 +180,15 @@
     <link href="https://ti-fdgg.github.io/2025/02/04/SpawnFailed/"/>
     <id>https://ti-fdgg.github.io/2025/02/04/SpawnFailed/</id>
     <published>2025-02-04T05:53:50.000Z</published>
-    <updated>2025-02-10T16:59:39.493Z</updated>
+    <updated>2025-03-07T17:11:56.957Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://ti-fdgg.github.io/2024/08/18/questions-and-solutions-while-bulid-blog/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;报错信息&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;/2024/08/18/questions-and-solutions-while-bulid-blog/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;报错信息&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
         
       
     
@@ -206,14 +210,14 @@
     <link href="https://ti-fdgg.github.io/2025/02/04/%E9%AA%A8%E6%8A%98%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
     <id>https://ti-fdgg.github.io/2025/02/04/%E9%AA%A8%E6%8A%98%E5%9B%9E%E5%BF%86%E5%BD%95/</id>
     <published>2025-02-04T02:18:03.000Z</published>
-    <updated>2025-02-27T12:41:46.573Z</updated>
+    <updated>2025-03-07T17:34:07.787Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;主要更新记录&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#主要更新记录&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -262,7 +266,7 @@
     <link href="https://ti-fdgg.github.io/2024/08/18/questions-and-solutions-while-bulid-blog/"/>
     <id>https://ti-fdgg.github.io/2024/08/18/questions-and-solutions-while-bulid-blog/</id>
     <published>2024-08-17T16:00:00.000Z</published>
-    <updated>2025-02-09T01:49:20.812Z</updated>
+    <updated>2025-03-07T17:11:51.214Z</updated>
     
     
       
