@@ -83,104 +83,11 @@
   </entry>
   
   <entry>
-    <title>Docker 学习笔记</title>
-    <link href="https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/"/>
-    <id>https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/</id>
-    <published>2025-02-07T07:52:51.000Z</published>
-    <updated>2025-03-07T17:11:29.913Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;/2025/02/05/Linux-Learning-Notes/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;容器技术基本概念&lt;/strong&gt;&lt;br</summary>
-        
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
-    
-    <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vim 学习笔记</title>
-    <link href="https://ti-fdgg.github.io/2025/02/07/Vim-Learning-Notes/"/>
-    <id>https://ti-fdgg.github.io/2025/02/07/Vim-Learning-Notes/</id>
-    <published>2025-02-07T07:50:35.000Z</published>
-    <updated>2025-03-07T17:12:02.586Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
-    
-    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 学习笔记</title>
-    <link href="https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/"/>
-    <id>https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/</id>
-    <published>2025-02-05T05:41:58.000Z</published>
-    <updated>2025-03-07T17:12:28.664Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;主要通过&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
-    
-    <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
-    
-    <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
-    
-    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”</title>
     <link href="https://ti-fdgg.github.io/2025/02/04/SpawnFailed/"/>
     <id>https://ti-fdgg.github.io/2025/02/04/SpawnFailed/</id>
     <published>2025-02-04T05:53:50.000Z</published>
-    <updated>2025-03-07T17:11:56.957Z</updated>
+    <updated>2025-07-05T10:09:39.811Z</updated>
     
     
       
@@ -202,33 +109,6 @@
     <category term="博客/Blog" scheme="https://ti-fdgg.github.io/tags/%E5%8D%9A%E5%AE%A2-Blog/"/>
     
     <category term="报错/Error" scheme="https://ti-fdgg.github.io/tags/%E6%8A%A5%E9%94%99-Error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>骨折回忆录</title>
-    <link href="https://ti-fdgg.github.io/2025/02/04/%E9%AA%A8%E6%8A%98%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
-    <id>https://ti-fdgg.github.io/2025/02/04/%E9%AA%A8%E6%8A%98%E5%9B%9E%E5%BF%86%E5%BD%95/</id>
-    <published>2025-02-04T02:18:03.000Z</published>
-    <updated>2025-03-07T17:34:07.787Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="杂谈" scheme="https://ti-fdgg.github.io/categories/%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="骨折" scheme="https://ti-fdgg.github.io/tags/%E9%AA%A8%E6%8A%98/"/>
-    
-    <category term="回忆" scheme="https://ti-fdgg.github.io/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
