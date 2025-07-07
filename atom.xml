@@ -6,7 +6,7 @@
   <link href="https://ti-fdgg.github.io/atom.xml" rel="self"/>
   
   <link href="https://ti-fdgg.github.io/"/>
-  <updated>2025-07-05T14:34:42.801Z</updated>
+  <updated>2025-07-07T06:37:47.232Z</updated>
   <id>https://ti-fdgg.github.io/</id>
   
   <author>
@@ -21,14 +21,16 @@
     <link href="https://ti-fdgg.github.io/2025/07/05/deferring-an-exam-in-BIT/"/>
     <id>https://ti-fdgg.github.io/2025/07/05/deferring-an-exam-in-BIT/</id>
     <published>2025-07-05T14:29:57.000Z</published>
-    <updated>2025-07-05T14:34:42.801Z</updated>
+    <updated>2025-07-07T06:37:47.232Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;/2025/02/27/affairs-after-got-injured/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;关于本文&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#关于本文&quot;&gt;&lt;/a&gt; 关于本文&lt;/h2&gt;
+&lt;h3</summary>
         
       
     
@@ -46,7 +48,7 @@
     <link href="https://ti-fdgg.github.io/2025/02/27/affairs-after-got-injured/"/>
     <id>https://ti-fdgg.github.io/2025/02/27/affairs-after-got-injured/</id>
     <published>2025-02-27T12:43:26.000Z</published>
-    <updated>2025-07-05T14:34:06.746Z</updated>
+    <updated>2025-07-06T05:50:51.330Z</updated>
     
     
       
@@ -62,11 +64,11 @@
     <category term="杂谈" scheme="https://ti-fdgg.github.io/categories/%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="骨折" scheme="https://ti-fdgg.github.io/tags/%E9%AA%A8%E6%8A%98/"/>
-    
     <category term="缓考" scheme="https://ti-fdgg.github.io/tags/%E7%BC%93%E8%80%83/"/>
     
     <category term="重考/重修/补考" scheme="https://ti-fdgg.github.io/tags/%E9%87%8D%E8%80%83-%E9%87%8D%E4%BF%AE-%E8%A1%A5%E8%80%83/"/>
+    
+    <category term="骨折" scheme="https://ti-fdgg.github.io/tags/%E9%AA%A8%E6%8A%98/"/>
     
     <category term="公费医疗报销" scheme="https://ti-fdgg.github.io/tags/%E5%85%AC%E8%B4%B9%E5%8C%BB%E7%96%97%E6%8A%A5%E9%94%80/"/>
     
