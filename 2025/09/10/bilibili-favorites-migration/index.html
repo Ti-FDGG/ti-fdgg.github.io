@@ -12,7 +12,7 @@
   <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_bq08450reo';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.code_block = {"expand":true};</script>
   
   <title>
-    hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed” |
+    b站收藏夹迁移 |
     
     Timothy&#39;s Blog
   </title>
@@ -27,22 +27,30 @@
 
   
   
-    <meta name="description" content="上级文档  报错信息 如图：  主要报错信息如下： 123456FATAL Something&#x27;s wrong. Maybe you can find the solution here: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;troubleshooting.htmlError: Spawn failed    at ChildProcess.&lt;anonymous&gt; (E">
+    <meta name="description" content="说明 我总是认为自己的b站收藏夹收藏的太乱了，所以一直想要整理一下。此前在2024年3月10日晚整理过一次，并做了详细记录。就在刚刚（2025年9月10日凌晨）我又进行了一次小规模的整理，不过没有截图记录。想要简单记录一下整理的结果，却又不知道该放到哪。突然想到还有一个博客，所以也就借此机会，重启一下我写博客的习惯吧。我这个人闲心思和闲话还挺多的。 本博客页面将用于记录我每一次（包含2024年春">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”">
-<meta property="og:url" content="https://ti-fdgg.github.io/2025/02/04/SpawnFailed/index.html">
+<meta property="og:title" content="b站收藏夹迁移">
+<meta property="og:url" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/index.html">
 <meta property="og:site_name" content="Timothy&#39;s Blog">
-<meta property="og:description" content="上级文档  报错信息 如图：  主要报错信息如下： 123456FATAL Something&#x27;s wrong. Maybe you can find the solution here: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;troubleshooting.htmlError: Spawn failed    at ChildProcess.&lt;anonymous&gt; (E">
+<meta property="og:description" content="说明 我总是认为自己的b站收藏夹收藏的太乱了，所以一直想要整理一下。此前在2024年3月10日晚整理过一次，并做了详细记录。就在刚刚（2025年9月10日凌晨）我又进行了一次小规模的整理，不过没有截图记录。想要简单记录一下整理的结果，却又不知道该放到哪。突然想到还有一个博客，所以也就借此机会，重启一下我写博客的习惯吧。我这个人闲心思和闲话还挺多的。 本博客页面将用于记录我每一次（包含2024年春">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://ti-fdgg.github.io/2025/02/04/SpawnFailed/Spawnfailed%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF.png">
-<meta property="article:published_time" content="2025-02-04T05:53:50.000Z">
-<meta property="article:modified_time" content="2025-07-05T10:09:39.811Z">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%9B%E5%BB%BA1.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%9B%E5%BB%BA2.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%A0%E9%99%A41.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%A0%E9%99%A42.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%A0%E9%99%A43.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E7%A7%BB%E5%8A%A81.1.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E7%A7%BB%E5%8A%A81.2.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E7%A7%BB%E5%8A%A81.3.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E9%9F%B3%E4%B9%901.png">
+<meta property="og:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E9%9F%B3%E4%B9%902.png">
+<meta property="article:published_time" content="2025-09-09T17:16:41.000Z">
+<meta property="article:modified_time" content="2025-09-09T18:30:52.918Z">
 <meta property="article:author" content="Mothy Ti">
-<meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="博客&#x2F;Blog">
-<meta property="article:tag" content="报错&#x2F;Error">
+<meta property="article:tag" content="bilibili">
+<meta property="article:tag" content="收藏夹">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://ti-fdgg.github.io/2025/02/04/SpawnFailed/Spawnfailed%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF.png">
+<meta name="twitter:image" content="https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%9B%E5%BB%BA1.png">
   
   
     <link rel="alternate" href="/atom.xml" title="Timothy's Blog" type="application/atom+xml">
@@ -175,7 +183,7 @@
       
     </picture>
     
-      <img fetchpriority="high" src="/images/banner/new_ban.webp" alt="hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”">
+      <img fetchpriority="high" src="/images/banner/new_ban.webp" alt="b站收藏夹迁移">
     
   
   <div id="header-outer">
@@ -184,7 +192,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”</h1>
+            <h1 data-aos="slide-up">b站收藏夹迁移</h1>
           </a>
         
       
@@ -225,7 +233,7 @@
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF"><span class="toc-number">1.</span> <span class="toc-text"> 报错信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">2.</span> <span class="toc-text"> 解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9"><span class="toc-number">2.0.0.1.</span> <span class="toc-text"> 参考内容</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%B8%80%E6%9B%B4%E6%8D%A2%E6%9B%B4%E5%8A%A0%E7%A8%B3%E5%AE%9A%E7%9A%84%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%A6%82%E4%BD%BF%E7%94%A8%E6%89%8B%E6%9C%BA%E7%A7%BB%E5%8A%A8%E7%83%AD%E7%82%B9"><span class="toc-number">2.1.</span> <span class="toc-text"> 方案一：更换更加稳定的网络环境（如使用手机移动热点）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%BA%8C%E4%BF%AE%E6%94%B9%E6%88%96%E5%88%A0%E9%99%A4-deplot_git-%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">2.2.</span> <span class="toc-text"> 方案二：修改或删除 .deplot_git 文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%B8%89%E9%87%8D%E8%A3%85-hexo-deployer-git"><span class="toc-number">2.3.</span> <span class="toc-text"> 方案三：重装 hexo-deployer-git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E5%9B%9B%E4%BD%BF%E7%94%A8-ssh-%E5%9C%B0%E5%9D%80"><span class="toc-number">2.4.</span> <span class="toc-text"> 方案四：使用 SSH 地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%BA%94%E6%A3%80%E6%9F%A5github%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="toc-number">2.5.</span> <span class="toc-text"> 方案五：检查github访问权限</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E5%85%AD%E6%A3%80%E6%9F%A5%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE"><span class="toc-number">2.6.</span> <span class="toc-text"> 方案六：检查代理设置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">3.</span> <span class="toc-text"> 后记</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E"><span class="toc-number">1.</span> <span class="toc-text"> 说明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B4%E7%90%86%E7%BB%93%E6%9E%9C"><span class="toc-number">2.</span> <span class="toc-text"> 整理结果</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2024%E5%B9%B43%E6%9C%8810%E6%97%A5"><span class="toc-number">2.1.</span> <span class="toc-text"> 2024年3月10日</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2025%E5%B9%B49%E6%9C%8810%E6%97%A5"><span class="toc-number">2.2.</span> <span class="toc-text"> 2025年9月10日</span></a></li></ol></li></ol>
       
   </div>
 </div>
@@ -313,19 +321,19 @@
   </div>
 </aside>
 
-          <section id="main"><article id="post-SpawnFailed" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main"><article id="post-bilibili-favorites-migration" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
-  <a href="/2025/02/04/SpawnFailed/" class="article-date-link" data-aos="zoom-in">
-    <time datetime="2025-02-04T05:53:50.000Z" itemprop="datePublished">2025-02-04</time>
-    <time style="display: none;" id="post-update-time">2025-07-05</time>
+  <a href="/2025/09/10/bilibili-favorites-migration/" class="article-date-link" data-aos="zoom-in">
+    <time datetime="2025-09-09T17:16:41.000Z" itemprop="datePublished">2025-09-10</time>
+    <time style="display: none;" id="post-update-time">2025-09-10</time>
   </a>
 </div>
 
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/" data-aos="zoom-in">计算机技术</a>
+    <a class="article-category-link" href="/categories/%E6%9D%82%E8%B0%88/" data-aos="zoom-in">杂谈</a>
   </div>
 
 
@@ -336,61 +344,73 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <p><a href="/2024/08/18/questions-and-solutions-while-bulid-blog/">上级文档</a></p>
-<h2 id="报错信息"><a class="markdownIt-Anchor" href="#报错信息"></a> 报错信息</h2>
-<p>如图：</p>
-<p><img src="Spawnfailed%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF.png" alt="Spawnfailed报错信息" /></p>
-<p>主要报错信息如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (E:\blogs\myblog\node_modules\hexo-deployer-git\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">    at ChildProcess.emit (node:events:519:28)</span><br><span class="line">    at cp.emit (E:\blogs\myblog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">    at ChildProcess._handle.onexit (node:internal/child_process:294:12)</span><br></pre></td></tr></table></figure>
-<h2 id="解决方案"><a class="markdownIt-Anchor" href="#解决方案"></a> 解决方案</h2>
-<h5 id="参考内容"><a class="markdownIt-Anchor" href="#参考内容"></a> 参考内容</h5>
-<p>这一部分主要参考以下博客内容编写：</p>
+        <h1 id="说明"><a class="markdownIt-Anchor" href="#说明"></a> 说明</h1>
+<p>我总是认为自己的b站收藏夹收藏的太乱了，所以一直想要整理一下。此前在2024年3月10日晚整理过一次，并做了详细记录。就在刚刚（2025年9月10日凌晨）我又进行了一次小规模的整理，不过没有截图记录。想要简单记录一下整理的结果，却又不知道该放到哪。突然想到还有一个博客，所以也就借此机会，重启一下我写博客的习惯吧。我这个人闲心思和闲话还挺多的。</p>
+<p>本博客页面将用于记录我每一次（包含2024年春天的那一次）对b站收藏夹的整理结果。由于b站对于收藏夹整理功能的支持效果并不好，每次整理时涉及到收藏内容的移动都会引起收藏时间的重置（看起来好像是纯粹的进行了一次取消收藏再重新收藏），因此我希望将每次整理的结果都记录下来，以便日后查看时，能想起来我是什么时候收藏的这些东西，也算是对于以后的自己留一些回忆的空间吧。</p>
+<h1 id="整理结果"><a class="markdownIt-Anchor" href="#整理结果"></a> 整理结果</h1>
+<h2 id="2024年3月10日"><a class="markdownIt-Anchor" href="#2024年3月10日"></a> 2024年3月10日</h2>
+<p>2024年3月10日晚，进行了b站收藏夹整理，删除了一些早期的长期不用的收藏夹，创建了一些新的收藏夹，将收藏内容重新进行了分配。为记录，进行了截图，但有一些细节的个别的整理（主要是对“非常理的默认收藏夹”进行的整理）没有截图。<br />
+特此留念。</p>
+<p>特别的，创建了“音乐”收藏夹。不知道之后，会怎么样呢。。</p>
+<blockquote>
+<p>当时的我想要学一些乐理知识。后面并没有坚持下去。这个收藏夹早就没了。<br />
+——2025年9月10日凌晨</p>
+</blockquote>
+<p><img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%9B%E5%BB%BA1.png" alt="2024年3月10日_创建1" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%9B%E5%BB%BA2.png" alt="2024年3月10日_创建2" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%A0%E9%99%A41.png" alt="2024年3月10日_删除1" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%A0%E9%99%A42.png" alt="2024年3月10日_删除2" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E5%88%A0%E9%99%A43.png" alt="2024年3月10日_删除3" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E7%A7%BB%E5%8A%A81.1.png" alt="2024年3月10日_移动1.1" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E7%A7%BB%E5%8A%A81.2.png" alt="2024年3月10日_移动1.2" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E7%A7%BB%E5%8A%A81.3.png" alt="2024年3月10日_移动1.3" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E9%9F%B3%E4%B9%901.png" alt="2024年3月10日_音乐1" /><br />
+<img src="2024%E5%B9%B43%E6%9C%8810%E6%97%A5/%E9%9F%B3%E4%B9%902.png" alt="2024年3月10日_音乐2" /></p>
+<blockquote>
+<p>从上面展示的内容可以看出，在2024年3月10日到2025年9月10日这段时间内，我的收藏夹结构和命名又发生了一些变化，不过这些就没能被记录下来了。</p>
+</blockquote>
+<h2 id="2025年9月10日"><a class="markdownIt-Anchor" href="#2025年9月10日"></a> 2025年9月10日</h2>
+<p>本次迁移主要进行了以下改动（重要改动进行加粗）：</p>
 <ol>
-<li><a target="_blank" rel="noopener" href="https://blog.zhheo.com/p/128998ac.html">Hexo错误：spawn failed的解决方法</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/2303_79611263/article/details/140346864">[最全]解决将Hexo部署到GitHub时报错：Error: Spawn failed</a></li>
-<li><a target="_blank" rel="noopener" href="https://plctey.github.io/2025/01/24/%E8%A7%A3%E5%86%B3%20Spawn%20failed%20%E9%97%AE%E9%A2%98%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95/">解决 Spawn failed 问题的三种方法</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/HTL2018/article/details/106876940">hexo发生error：spawn failed错误的解决方法</a></li>
+<li><strong>创建“音MAD”收藏夹，收藏此前一段时间以及之后的时间内（从2025年7月开始）音MAD及其类似物。下面是该收藏夹的具体说明。</strong>
+<ul>
+<li>创建于2025年9月10日。此后收藏的音MAD及其类似物统一收藏到该收藏夹中，东方、BLACKSOULS、电棍、银饼等收藏夹仅在收藏非音MAD内容时启用。实际上电棍、银饼两个收藏夹原本就全为音MAD内容。</li>
+<li>对于原本收藏到默认收藏夹，以及特定ip的收藏夹的音MAD类型作品，仅迁移2025年7月之后收藏的内容。具体说来，迁移的主要是默认收藏夹。除此之外，还有一个来自BLACKSOULS收藏夹的内容。</li>
+<li>实际上包含各类“鬼畜”类型视频。</li>
+</ul>
+</li>
+<li>创建“明日方舟”收藏夹，收藏从我开始玩明日方舟（2025年8月13日）之后收藏的全部明日方舟相关内容（正经音乐作品除外）。下面是该收藏夹的具体说明。
+<ul>
+<li>收藏内容迁移自默认收藏夹。我从2025年8月13日开始玩明日方舟，收藏内容也从这一天开始。</li>
+</ul>
+</li>
+<li><strong>调整了收藏夹的排序。通过排序来认定几个收藏夹已经废弃，同时寻求制作一套新的收藏夹规范。</strong></li>
 </ol>
-<h3 id="方案一更换更加稳定的网络环境如使用手机移动热点"><a class="markdownIt-Anchor" href="#方案一更换更加稳定的网络环境如使用手机移动热点"></a> 方案一：更换更加稳定的网络环境（如使用手机移动热点）</h3>
-<p><strong>这个方案解决了我的问题。</strong></p>
-<p>心路历程：<br />
-在查阅了网上各种资料之后我的问题迟迟得不到有效解决，网上主流的解决方案都是删除<code>.deploy_git</code>文件夹或者修改其中的文件内容。但是这样做了之后依然会<strong>间歇性</strong>的出现以上问题。在询问ChatGPT以及结合网上的方法之后，我决定尝试直接对 GitHub 网站进行SSH连接。之后果然没有得到正常的回复信息，但也并没有得到像<a href="#%E6%96%B9%E6%A1%88%E4%BA%94%E6%A3%80%E6%9F%A5github%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90">方案五</a>说的一样的结果，而是显示已经自动被重置到443端口。<br />
-结合此前观察到的问题“间歇性”发作，以及使用家里的 WiFi 连接经常性的不能稳定的登录外网，（以及我在用家里的网打游戏的时候总是莫名其妙卡顿的经历），我突然意识到是网络环境不稳定的问题。之后我就连接了移动热点，果然解决了这个问题。（当然实际上是什么原理我也不清楚）<br />
-此前在网上一直没有找到与我有类似情况的人，不过反倒在发布这个帖子快一周后的今天（2025年2月10日）（为什么现在才更。。），我又重新搜索这个问题的时候，找到了<a target="_blank" rel="noopener" href="https://www.cnblogs.com/limyu/p/17897437.html">与我有类似情况的人</a>（以及<a target="_blank" rel="noopener" href="https://plctey.github.io/2025/01/24/%E8%A7%A3%E5%86%B3%20Spawn%20failed%20%E9%97%AE%E9%A2%98%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95/">另一个与我有类似情况的人</a>）。只可惜当初没有找到这个博客，似乎AI也没有为我整理这一信息，导致花费了很多时间去踩坑。</p>
-<h3 id="方案二修改或删除-deplot_git-文件夹"><a class="markdownIt-Anchor" href="#方案二修改或删除-deplot_git-文件夹"></a> 方案二：修改或删除 .deplot_git 文件夹</h3>
-<p>问题大多是因为 git 进行push或者hexo d的时候改变了一些.deploy_git文件下的内容<a href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9">参考内容第4条</a>，因此修改其中内容，或者直接删除这一文件夹即可（这个文件夹在每一次 hexo d 的时候都会更新，不存在会自动创建，删除不会影响博客的正常工作）。</p>
-<p>最直接的方法：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rm -rf .deploy_git/ # 或手动删除根目录下的 .deploy_git 文件夹</span><br><span class="line">git config --global core.autocrlf false # 禁用 Git 自动转换换行符，保持文件原始的换行符格式。具体这一行有什么用我也不清楚</span><br></pre></td></tr></table></figure>
-<p>之后执行</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-<p>观察能否正常运行。</p>
-<p>在<a href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9">参考内容第1条</a>中还给出了以下方法：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd .deploy_git</span><br><span class="line">git config –global core.autocrlf false。</span><br></pre></td></tr></table></figure>
-<p>或<br />
-找到.deploy_git文件夹中的index.lock文件，删除。</p>
-<p>不过我没有测试（实际上也没有条件测试，因为我的问题不是通过这个方法解决的），不保证有效性。<br />
-实际上方案二是网上最常见的解决方案，而且都是通过删除文件夹并进一步配置实现的。</p>
-<h3 id="方案三重装-hexo-deployer-git"><a class="markdownIt-Anchor" href="#方案三重装-hexo-deployer-git"></a> 方案三：重装 hexo-deployer-git</h3>
-<p>感觉与方案二类似。<br />
-这是我最初使用的方法，但是后来也发现是间歇性起效，实际上也不是解决我的问题的根源。<br />
-当然了，可以一试。</p>
-<h3 id="方案四使用-ssh-地址"><a class="markdownIt-Anchor" href="#方案四使用-ssh-地址"></a> 方案四：使用 SSH 地址</h3>
-<p>参见<a href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9">参考内容第2或第3条</a>，写的都比较简洁明了。</p>
-<h3 id="方案五检查github访问权限"><a class="markdownIt-Anchor" href="#方案五检查github访问权限"></a> 方案五：检查github访问权限</h3>
-<p>参见<a href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9">参考内容第2条</a>。这一解决方案虽然没有直接解决我的问题，但也是对我想出方案一有一点启发吧。。</p>
-<h3 id="方案六检查代理设置"><a class="markdownIt-Anchor" href="#方案六检查代理设置"></a> 方案六：检查代理设置</h3>
-<p>这也算是各种网络问题的经典解决方案了，就好比我玩<code>坦克世界</code>的时候如果开着代理就没法正常登录游戏（为什么其他游戏可以比如战雷）。</p>
-<p>首先可以尝试打开或关闭你的软件（梯子）上的代理设置（当然，也可以直接重启计算机）。尝试问题是否解决。</p>
-<p>没有解决的话，参见<a href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9">参考内容第1条</a><br />
-在开启代理设置的情况下，检查是否正确设置git代理命令：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:1080</span><br><span class="line">git config --global https.proxy https://127.0.0.1:1080</span><br></pre></td></tr></table></figure>
-<p>在关闭代理设置的情况下，可以取消git代理：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
-<p>之后进一步尝试推送内容，观察是否可以正常运行。</p>
-<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
-<p>可能还有其他解决方案，这里就不继续整理了。<br />
-如果问题迟迟得不到解决，假如是突然出现的这个问题，此前没有，那么最终的解决方案可能就是保留必要的配置文件，从头搭一遍博客（或者回滚到之前的版本，但是其实 GitHub 上保存的版本快照已经在 Hexo 推送更改了文件结构了，没有办法直接拿来用，除非你还开辟了一个专门存储博客的本地文件的 GitHub 仓库）<br />
-假如是刚开始搭建博客就遇到这个问题，那么或许也可以考虑换一条路？ Hexo 也不算新了，速度也比较慢。或许你可以考虑更快的 Hugo ？或者是同样搭建简单的 Jekyll ？毕竟试错成本也不算大。多试一试，总是好的。</p>
+<p>上面两个“收藏夹的具体说明”，是b站的收藏夹简介做了部分拓展（b站收藏夹简介限制200字）。</p>
+<p>我一直在思考一个有条理的管理我的收藏夹的方式。收藏夹一方面是为了方便查看自己希望反复品味的内容，另一方面，所谓“到我的收藏夹里吃灰去吧”其实是对于自己在这一阶段所喜爱或关注的内容的一种记录，但bilibili对于收藏内容移动的处理方式使得每一次整理收藏夹都会一定程度破坏这种记录的连续性，而且，b站对于收藏时间超过两年的视频，会简单粗暴的在收藏时间处显示一个“两年前”。因此我希望通过制定一套长期看来都能合理的收藏方式来规范我的收藏内容组织方式，同时还能尽量减少每次整理时对于原有结构的破坏，同时也能减少整理的次数。</p>
+<p>虽然我现在仍然在努力的拓展自己喜好的内容标签，不过看起来原有保留下来的仍在活跃几个喜好已经大体固定（指未来的很长一段时间还会关注和喜好下去），其主要内容可以由以下几个收藏夹来涵盖：</p>
+<ol>
+<li>奇奇怪怪的歌曲们：我创建这个b站号时最初的一批收藏夹之一，主要收藏了我各个时期喜欢听的真正意义上的音乐或歌曲（不包含音MAD）。</li>
+</ol>
+<ul>
+<li>这个收藏夹事实上在最初不仅仅收藏音乐或歌曲，还收藏鬼畜等调音内容（这也是为什么称作“奇奇怪怪”的歌曲的原因），在2024年（或者是2023年）之后一度被几近弃用，直到2025年的寒假我才再次大量向其中收录音乐和歌曲，并定下了收藏“真正意义上的音乐或歌曲（不包含音MAD）”的原则。</li>
+</ul>
+<ol start="2">
+<li>东方：主要收藏了东方相关的各类视频，包含音乐、STG、音MAD、MMD等各类内容。</li>
+</ol>
+<ul>
+<li>我在2021年的秋天正式入坑东方。大概是因为一个网易云歌单吧？其中的一首曲子还被我认定为了所谓“本命曲”。</li>
+<li>这个收藏夹中的视频也并非这个收藏夹创建时就被收藏，其中显示的倒数第二到第四这3个此前收藏在默认收藏夹中，我在2022年8月1日（具体时间似乎因为b站的显示原因已经不可考，简单查看网页元素也找不到踪迹。不过我清晰的记得是一个“1号”）创建这个收藏夹时将其整理入其中。有一些显示bug，目前显示的我的收藏夹中最后一个视频实际上并非我创建这个收藏夹时就收藏的。</li>
+</ul>
+<ol start="3">
+<li>音MAD：主要收藏了音MAD及其类似物，实际上包含各类“鬼畜”类型视频。</li>
+</ol>
+<ul>
+<li>具体的鬼畜分类我也不太清楚，音MAD、人力VOCOLOID、鬼畜剧场，这样吗。</li>
+</ul>
+<ol start="4">
+<li>坦克世界：我创建这个b站号时最初的一批收藏夹之一，包含与坦克世界相关的内容。</li>
+</ol>
 
       
     </div>
@@ -400,13 +420,13 @@
       
         <div class="share-wrapper">
   
-    <a href="http://connect.qq.com/widget/shareqq/index.html?url=https%3A%2F%2Fti-fdgg.github.io%2F2025%2F02%2F04%2FSpawnFailed%2F&amp;title=hexo%20deploy%EF%BC%88hexo%20d%EF%BC%89%E9%83%A8%E7%BD%B2%E6%96%87%E4%BB%B6%E5%88%B0GitHub%E6%97%B6%EF%BC%8C%E6%8A%A5%E9%94%99%EF%BC%9A%E2%80%9CError%3ASpawn%20failed%E2%80%9D&amp;desc=hexo%20deploy%EF%BC%88hexo%20d%EF%BC%89%E9%83%A8%E7%BD%B2%E6%96%87%E4%BB%B6%E5%88%B0GitHub%E6%97%B6%EF%BC%8C%E6%8A%A5%E9%94%99%EF%BC%9A%E2%80%9CError%3ASpawn%20failed%E2%80%9D&amp;source=https%3A%2F%2Fti-fdgg.github.io" target="_blank" rel="noopener noreferrer" title="hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”">
+    <a href="http://connect.qq.com/widget/shareqq/index.html?url=https%3A%2F%2Fti-fdgg.github.io%2F2025%2F09%2F10%2Fbilibili-favorites-migration%2F&amp;title=b%E7%AB%99%E6%94%B6%E8%97%8F%E5%A4%B9%E8%BF%81%E7%A7%BB&amp;desc=b%E7%AB%99%E6%94%B6%E8%97%8F%E5%A4%B9%E8%BF%81%E7%A7%BB&amp;source=https%3A%2F%2Fti-fdgg.github.io" target="_blank" rel="noopener noreferrer" title="b站收藏夹迁移">
       <div class="share-icon icon icon-qq">
         
       </div>
     </a>
   
-    <a href="javascript:;"  title="hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”">
+    <a href="javascript:;"  title="b站收藏夹迁移">
       <div class="share-icon icon icon-weixin">
         
           <div id="share-weixin">
@@ -438,7 +458,7 @@
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2-Blog/" rel="tag">博客&#x2F;Blog</a></li><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/%E6%8A%A5%E9%94%99-Error/" rel="tag">报错&#x2F;Error</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/bilibili/" rel="tag">bilibili</a></li><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/%E6%94%B6%E8%97%8F%E5%A4%B9/" rel="tag">收藏夹</a></li></ul>
 
 
     </footer>
@@ -446,35 +466,19 @@
   
   <nav id="article-nav" data-aos="fade-up">
     
-      <div class="article-nav-link-wrap article-nav-link-left">
-        
-          
-          
-            <img data-src="/covers/touhouvote20.jpg" data-sizes="auto" alt="硬链接和软链接" class="lazyload">
-          
-        
-        <a href="/2025/02/07/HardLink-and-SymbolicLink/"></a>
-        <div class="article-nav-caption">前一篇</div>
-        <h3 class="article-nav-title">
-          
-            硬链接和软链接
-          
-        </h3>
-      </div>
-    
     
     <div class="article-nav-link-wrap article-nav-link-right">
       
         
         
-          <img data-src="/covers/可爱.jpg" data-sizes="auto" alt="新版Outlook到底怎么用" class="lazyload">
+          <img data-src="/covers/喵喵.webp" data-sizes="auto" alt="在北理工缓考" class="lazyload">
         
       
-      <a href="/2025/02/03/how-to-use-the-new-Outlook/"></a>
+      <a href="/2025/07/05/deferring-an-exam-in-BIT/"></a>
       <div class="article-nav-caption">后一篇</div>
       <h3 class="article-nav-title">
         
-          新版Outlook到底怎么用
+          在北理工缓考
         
       </h3>
     </div>
@@ -551,7 +555,7 @@
   <h3 class="toc-title">文章目录</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%E4%BF%A1%E6%81%AF"><span class="toc-number">1.</span> <span class="toc-text"> 报错信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">2.</span> <span class="toc-text"> 解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%86%85%E5%AE%B9"><span class="toc-number">2.0.0.1.</span> <span class="toc-text"> 参考内容</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%B8%80%E6%9B%B4%E6%8D%A2%E6%9B%B4%E5%8A%A0%E7%A8%B3%E5%AE%9A%E7%9A%84%E7%BD%91%E7%BB%9C%E7%8E%AF%E5%A2%83%E5%A6%82%E4%BD%BF%E7%94%A8%E6%89%8B%E6%9C%BA%E7%A7%BB%E5%8A%A8%E7%83%AD%E7%82%B9"><span class="toc-number">2.1.</span> <span class="toc-text"> 方案一：更换更加稳定的网络环境（如使用手机移动热点）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%BA%8C%E4%BF%AE%E6%94%B9%E6%88%96%E5%88%A0%E9%99%A4-deplot_git-%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">2.2.</span> <span class="toc-text"> 方案二：修改或删除 .deplot_git 文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%B8%89%E9%87%8D%E8%A3%85-hexo-deployer-git"><span class="toc-number">2.3.</span> <span class="toc-text"> 方案三：重装 hexo-deployer-git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E5%9B%9B%E4%BD%BF%E7%94%A8-ssh-%E5%9C%B0%E5%9D%80"><span class="toc-number">2.4.</span> <span class="toc-text"> 方案四：使用 SSH 地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E4%BA%94%E6%A3%80%E6%9F%A5github%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="toc-number">2.5.</span> <span class="toc-text"> 方案五：检查github访问权限</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%A1%88%E5%85%AD%E6%A3%80%E6%9F%A5%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE"><span class="toc-number">2.6.</span> <span class="toc-text"> 方案六：检查代理设置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">3.</span> <span class="toc-text"> 后记</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E"><span class="toc-number">1.</span> <span class="toc-text"> 说明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B4%E7%90%86%E7%BB%93%E6%9E%9C"><span class="toc-number">2.</span> <span class="toc-text"> 整理结果</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2024%E5%B9%B43%E6%9C%8810%E6%97%A5"><span class="toc-number">2.1.</span> <span class="toc-text"> 2024年3月10日</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2025%E5%B9%B49%E6%9C%8810%E6%97%A5"><span class="toc-number">2.2.</span> <span class="toc-text"> 2025年9月10日</span></a></li></ol></li></ol>
       
   </div>
 </div>
@@ -827,13 +831,13 @@
       <script data-pjax>
         window.REIMU_POST = {
           author: "Mothy Ti",
-          title: "hexo deploy（hexo d）部署文件到GitHub时，报错：“Error:Spawn failed”",
-          url: "https://ti-fdgg.github.io/2025/02/04/SpawnFailed/",
+          title: "b站收藏夹迁移",
+          url: "https://ti-fdgg.github.io/2025/09/10/bilibili-favorites-migration/",
           excerpt: "",
           description: "",
-          stripContent: "上级文档  报错信息 如图：  主要报错信息如下： 123456FATAL Something&amp;#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.htmlError: Spawn failed    at ChildProcess.&amp;lt;anonymous&amp;gt; (E:\blogs\myblog\node_modules\hexo-deployer-git\node",
-          date: "Tue Feb 04 2025 13:53:50 GMT+0800",
-          updated: "Sat Jul 05 2025 18:09:39 GMT+0800",
+          stripContent: " 说明 我总是认为自己的b站收藏夹收藏的太乱了，所以一直想要整理一下。此前在2024年3月10日晚整理过一次，并做了详细记录。就在刚刚（2025年9月10日凌晨）我又进行了一次小规模的整理，不过没有截图记录。想要简单记录一下整理的结果，却又不知道该放到哪。突然想到还有一个博客，所以也就借此机会，重启一下我写博客的习惯吧。我这个人闲心思和闲话还挺多的。 本博客页面将用于记录我每一次（包含2024年春天的那一次）对b站收藏夹的整理结果。由于b站对于收藏夹整理功能的支持效果并不好，每次整理时涉及到收藏",
+          date: "Wed Sep 10 2025 01:16:41 GMT+0800",
+          updated: "Wed Sep 10 2025 02:30:52 GMT+0800",
           cover: "/images/banner/new_ban.webp",
         };
       </script>
