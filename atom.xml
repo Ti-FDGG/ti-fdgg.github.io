@@ -218,9 +218,9 @@
     
     <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
     
-    <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
-    
     <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
+    
+    <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
     
     <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
     

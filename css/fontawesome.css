@@ -1,163 +1,181 @@
 :root {
-  --font-icon: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
+  --font-icon: 'Font Awesome 7 Free', 'Font Awesome 7 Brands', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'FontAwesome';
 }
-.tag-wrap .archives-tag-list-link:before {
+.archives-tag-list-link:before {
   font-family: var(--font-icon);
-  content: "\f02b";
+  content: '\f02b';
 }
-.category-wrap .archives-category-list-link:before {
+.archives-category-list-link:before {
   font-family: var(--font-icon);
-  content: "\f02e";
+  content: '\f02e';
 }
 .article-date-link:before {
   font-family: var(--font-icon);
-  content: "\f017";
+  content: '\f017';
+  font-weight: 900;
 }
 .article-category-link:before {
   font-family: var(--font-icon);
-  content: "\f02e";
+  content: '\f02e';
+  font-weight: 900;
 }
 .article-tag-list-link:before {
   font-family: var(--font-icon);
-  content: "\f02b";
+  content: '\f02b';
 }
 .article-comment-link:before {
   font-family: var(--font-icon);
-  content: "\f075";
+  content: '\f075';
+  font-weight: 900;
 }
 .icon-copyright:before {
   font-family: var(--font-icon);
-  content: "\f1f9";
+  content: '\f1f9';
 }
 .icon-brush:before {
   font-family: var(--font-icon);
-  content: "\f1fc";
+  content: '\f1fc';
 }
 .icon-coffee:before {
   font-family: var(--font-icon);
-  content: "\f0f4";
+  content: '\f0f4';
 }
 .icon-eye:before {
   font-family: var(--font-icon);
-  content: "\f06e";
+  content: '\f06e';
+  font-weight: 900;
 }
 .icon-user:before {
   font-family: var(--font-icon);
-  content: "\f007";
+  content: '\f007';
+  font-weight: 900;
 }
 #main-nav-toggle:before {
   font-family: var(--font-icon);
-  content: "\f0c9";
+  content: '\f0c9';
 }
 #nav-rss-link:before {
   font-family: var(--font-icon);
-  content: "\f09e";
+  content: '\f09e';
 }
 #nav-search-btn:before {
   font-family: var(--font-icon);
-  content: "\f002";
+  content: '\f002';
 }
 #nav-sun-btn:before {
   font-family: var(--font-icon);
-  content: "\f185";
+  content: '\f185';
+  font-weight: 900;
 }
 #nav-moon-btn:before {
   font-family: var(--font-icon);
-  content: "\f186";
+  content: '\f186';
+  font-weight: 900;
+}
+#nav-circle-half-stroke-btn:before {
+  font-family: var(--font-icon);
+  content: '\f042';
+}
+#nav-language-btn:before {
+  font-family: var(--font-icon);
+  content: '\f1ab';
 }
 .icon-copy:before {
   font-family: var(--font-icon);
-  content: "\f0c5";
+  content: '\f0c5';
 }
 .icon-chevron-down:before {
   font-family: var(--font-icon);
-  content: "\f078";
+  content: '\f078';
 }
 .icon-check:before {
   font-family: var(--font-icon);
-  content: "\f00c";
+  content: '\f00c';
 }
 .icon-times:before {
   font-family: var(--font-icon);
-  content: "\f00d";
+  content: '\f00d';
 }
 .icon-calendar:before {
   font-family: var(--font-icon);
-  content: "\f073";
+  content: '\f133';
+  font-weight: 900;
+}
+.icon-calendar-plus:before {
+  font-family: var(--font-icon);
+  content: '\f271';
+  font-weight: 900;
 }
 .icon-pencil:before {
   font-family: var(--font-icon);
-  content: "\f5ad";
+  content: '\f5ad';
 }
 .icon-clock:before {
   font-family: var(--font-icon);
-  content: "\f252";
+  content: '\f252';
+  font-weight: 900;
 }
 .post-sticky:before {
   font-family: var(--font-icon);
-  content: "\f164";
+  content: '\f164';
+  font-weight: 900;
 }
-.reimu-popup .popup-btn-close:before {
+.popup-btn-close:before {
   font-family: var(--font-icon);
-  content: "\f057";
+  content: '\f057';
+  font-weight: 900;
 }
 .reimu-search-input-icon:before {
   font-family: var(--font-icon);
-  content: "\f002";
+  content: '\f002';
 }
 .ais-pagination--item__previous a:before {
   font-family: var(--font-icon);
-  content: "\f104";
+  content: '\f104';
 }
 .ais-pagination--item__next a:before {
   font-family: var(--font-icon);
-  content: "\f105";
+  content: '\f105';
 }
 .icon-github:before {
-  content: "\f09b";
+  content: '\f09b';
 }
 .icon-bilibili:before {
-  content: "\e3d9";
+  content: '\e3d9';
 }
-.sidebar-btn-wrapper .sidebar-toc-btn:before {
+.sidebar-toc-btn:before {
   font-family: var(--font-icon);
-  content: "\f0e8";
+  content: '\f0e8';
 }
-.sidebar-btn-wrapper .sidebar-common-btn:before {
+.sidebar-common-btn:before {
   font-family: var(--font-icon);
-  content: "\e3af";
+  content: '\e3af';
 }
 .sidebar-top .arrow-up:before {
   font-family: var(--font-icon);
-  content: "\f062";
+  content: '\f062';
 }
 .icon-link:before {
   font-family: var(--font-icon);
-  content: "\f0c1";
+  content: '\f0c1';
 }
 .icon-globe:before {
   font-family: var(--font-icon);
-  content: "\f0ac";
+  content: '\f0ac';
+  font-weight: 900;
 }
 .icon-creative-commons:before {
   font-family: var(--font-icon);
-  content: "\f25e";
+  content: '\f25e';
 }
 .icon-taichi:before {
   font-family: var(--font-icon);
-  content: "\f6ad";
-}
-.icon-weixin:before {
-  font-family: var(--font-icon);
-  content: "\f1d7";
-}
-.icon-qq:before {
-  font-family: var(--font-icon);
-  content: "\f1d6";
+  content: '\f6ad';
 }
 .icon-image:before {
   font-family: var(--font-icon);
-  content: "\f03e";
+  content: '\f03e';
+  font-weight: 900;
 }
 .icon {
   font-family: var(--font-icon);

@@ -4,8 +4,7 @@
     if (!parent.classList.contains("gutter")) {
       const div = document.createElement("div");
       div.className = "code-area";
-      parent.insertBefore(div, element);
-      parent.removeChild(element);
+      parent.replaceChild(div, element);
       div.appendChild(element);
     }
   });
@@ -35,35 +34,31 @@
           element.querySelectorAll("td.code .line").length > expandThreshold)
       ) {
         element.classList.add("code-closed");
+        // force rerender element to refresh AOS
+        element.style.display = "none";
+        void element.offsetWidth;
+        element.style.display = "";
       }
     }
+    // 代码语言
+    const codeLanguage = element.className.split(" ")[1];
+    if (codeLanguage) {
+      const langName = codeLanguage
+        .replace("line-numbers", "")
+        .replace("language-", "")
+        .trim()
+        .toUpperCase();
+
+      const langElement = element.querySelector(".code-lang");
+      if (langElement) langElement.innerText = langName;
+    }
   });
+
   // 代码收缩
   _$$(".code-expand").forEach((element) => {
     element.off("click").on("click", () => {
-      const figure = element.closest("figure");
-      figure.classList.toggle("code-closed");
+      element.closest("figure")?.classList.toggle("code-closed");
     });
-  });
-
-  // 代码语言
-  _$$("figure.highlight").forEach((element) => {
-    let codeLanguage = element.className.split(" ")[1];
-    if (!codeLanguage) {
-      return;
-    }
-    let langName = codeLanguage
-      .replace("line-numbers", "")
-      .trim()
-      .replace("language-", "")
-      .trim();
-
-    // 大写
-    langName = langName.toUpperCase();
-    const children = element.querySelector(".code-lang");
-    if (children) {
-      children.innerText = langName;
-    }
   });
 
   if (!window.ClipboardJS) {
@@ -72,26 +67,29 @@
 
   const tips = window.REIMU_CONFIG?.clipboard_tips || {};
 
+  // 获取本地化文本
+  const getLocalizedText = (config, defaultText) => {
+    if (typeof config === "string") return config;
+    if (typeof config === "object") {
+      const lang = document.documentElement.lang.toLowerCase();
+      const key = Object.keys(config).find((k) => k.toLowerCase() === lang);
+      if (key && config[key]) return config[key];
+    }
+    return defaultText;
+  };
+
   // 代码复制
   const clipboard = new ClipboardJS(".code-copy", {
     text: (trigger) => {
-      const selection = window.getSelection();
-      const range = document.createRange();
+      const codeElement =
+        trigger.parentNode.parentNode.parentNode.querySelector("td.code");
+      let selectedText = codeElement?.innerText || "";
 
-      range.selectNodeContents(
-        trigger.parentNode.parentNode.nextElementSibling.querySelector(
-          "td.code"
-        )
-      );
-      selection.removeAllRanges();
-      selection.addRange(range);
-
-      let selectedText = selection.toString();
       if (
         tips.copyright?.enable &&
         selectedText.length >= tips.copyright?.count
       ) {
-        selectedText = selectedText + "\n\n" + tips.copyright?.content ?? "";
+        selectedText += "\n\n" + (tips.copyright?.content ?? "");
       }
       return selectedText;
     },
@@ -99,7 +97,11 @@
   clipboard.on("success", (e) => {
     e.trigger.classList.add("icon-check");
     e.trigger.classList.remove("icon-copy");
-    _$("#copy-tooltip").innerText = tips.success;
+    const successText = getLocalizedText(
+      tips.success,
+      "Copy successfully (*^▽^*)",
+    );
+    _$("#copy-tooltip").innerText = successText;
     _$("#copy-tooltip").style.opacity = 1;
     setTimeout(() => {
       _$("#copy-tooltip").style.opacity = 0;
@@ -112,7 +114,8 @@
   clipboard.on("error", (e) => {
     e.trigger.classList.add("icon-times");
     e.trigger.classList.remove("icon-copy");
-    _$("#copy-tooltip").innerText = tips.fail;
+    const failText = getLocalizedText(tips.fail, "Copy failed (ﾟ⊿ﾟ)ﾂ");
+    _$("#copy-tooltip").innerText = failText;
     _$("#copy-tooltip").style.opacity = 1;
     setTimeout(() => {
       _$("#copy-tooltip").style.opacity = 0;
@@ -128,7 +131,10 @@
       () => {
         clipboard.destroy();
       },
-      { once: true }
+      { once: true },
     );
   }
+
+  // Since we add code-closed class to the figure element, we need to refresh AOS
+  window.AOS?.refresh();
 })();
