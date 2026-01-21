@@ -6,7 +6,7 @@
   <link href="https://ti-fdgg.github.io/atom.xml" rel="self"/>
   
   <link href="https://ti-fdgg.github.io/"/>
-  <updated>2025-09-13T07:24:24.434Z</updated>
+  <updated>2025-09-15T10:49:11.690Z</updated>
   <id>https://ti-fdgg.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ti-fdgg.github.io/2025/09/11/thoughts-at-any-time-or-diary/"/>
     <id>https://ti-fdgg.github.io/2025/09/11/thoughts-at-any-time-or-diary/</id>
     <published>2025-09-11T15:18:02.000Z</published>
-    <updated>2025-09-13T07:24:24.434Z</updated>
+    <updated>2025-09-15T10:49:11.690Z</updated>
     
     
       
@@ -159,6 +159,70 @@
     <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
     
     <category term="ChatGPT生成" scheme="https://ti-fdgg.github.io/tags/ChatGPT%E7%94%9F%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 学习笔记</title>
+    <link href="https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/"/>
+    <id>https://ti-fdgg.github.io/2025/02/07/Docker-Learning-Notes/</id>
+    <published>2025-02-07T07:52:51.000Z</published>
+    <updated>2026-01-21T03:22:51.201Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;/2025/02/05/Linux-Learning-Notes/&quot;&gt;上级文档&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;容器技术基本概念&lt;/strong&gt;&lt;br</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
+    
+    <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 学习笔记</title>
+    <link href="https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/"/>
+    <id>https://ti-fdgg.github.io/2025/02/05/Linux-Learning-Notes/</id>
+    <published>2025-02-05T05:41:58.000Z</published>
+    <updated>2026-01-21T03:22:22.649Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主要通过&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机技术" scheme="https://ti-fdgg.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="https://ti-fdgg.github.io/tags/Linux/"/>
+    
+    <category term="Docker" scheme="https://ti-fdgg.github.io/tags/Docker/"/>
+    
+    <category term="Shell" scheme="https://ti-fdgg.github.io/tags/Shell/"/>
+    
+    <category term="Vim" scheme="https://ti-fdgg.github.io/tags/Vim/"/>
     
   </entry>
   
