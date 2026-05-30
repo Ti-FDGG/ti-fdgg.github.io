@@ -1,0 +1,28 @@
+title: "Mothy Ti"
+name: "Mothy Ti"
+description: "Personal academic homepage"
+url: "https://ti-fdgg.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+author:
+  name: "Mothy Ti"
+  avatar:
+  bio: "Undergraduate student interested in computer science."
+  location: "Beijing, China"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ti-fdgg"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ti-fdgg"

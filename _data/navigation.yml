@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blogs/
+  - title: "GitHub"
+    url: https://github.com/ti-fdgg
