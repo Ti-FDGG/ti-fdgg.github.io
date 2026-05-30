@@ -1,28 +1,44 @@
-title: "Mothy Ti"
-name: "Mothy Ti"
-description: "Personal academic homepage"
+title: "Mofei Chen"
+name: "Mofei Chen"
+description: "Academic homepage of Mofei Chen"
 url: "https://ti-fdgg.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "default"
 
+locale: "en-US"
+title_separator: "-"
+repository: "ti-fdgg/ti-fdgg.github.io"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
 author:
-  name: "Mothy Ti"
-  avatar:
-  bio: "Undergraduate student interested in computer science."
+  name: "Mofei Chen"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Undergraduate student in Computer Science at Beijing Institute of Technology."
   location: "Beijing, China"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:1120233329@bit.edu.cn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ti-fdgg"
+    - label: "Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://ti-fdgg.github.io/blogs/"
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:1120233329@bit.edu.cn"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ti-fdgg"
+    - label: "Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://ti-fdgg.github.io/blogs/"

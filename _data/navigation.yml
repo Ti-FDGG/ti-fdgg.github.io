@@ -1,6 +1,10 @@
 main:
   - title: "Home"
     url: /
+  - title: "Projects"
+    url: /#selected-projects
+  - title: "Awards"
+    url: /#honors--awards
   - title: "Blog"
     url: /blogs/
   - title: "GitHub"
