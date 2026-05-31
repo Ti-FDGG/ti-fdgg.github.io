@@ -93,3 +93,16 @@ body {
   font-size: 0.85em;
   line-height: 1.5;
 }
+
+.placeholder-home {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
