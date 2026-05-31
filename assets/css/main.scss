@@ -1,0 +1,95 @@
+---
+# Only the main Sass file needs front matter so Jekyll processes it.
+---
+
+@charset "utf-8";
+
+/* Theme variables must be set before importing Minimal Mistakes. */
+$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+  "Helvetica Neue", Arial, sans-serif;
+$header-font-family: $global-font-family;
+$caption-font-family: $global-font-family;
+
+$type-size-1: 2.441em;
+$type-size-2: 1.953em;
+$type-size-3: 1.563em;
+$type-size-4: 1.25em;
+$type-size-5: 1em;
+$type-size-6: 0.875em;
+$type-size-7: 0.75em;
+$type-size-8: 0.6875em;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Site-wide typography tweaks. */
+html {
+  font-size: 16px;
+
+  @include breakpoint($medium) {
+    font-size: 17px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 18px;
+  }
+}
+
+body {
+  line-height: 1.65;
+}
+
+.page__content {
+  font-size: 0.95em;
+
+  h2 {
+    margin-top: 1.6em;
+    font-size: 1.35em;
+  }
+
+  h3 {
+    font-size: 1.08em;
+  }
+}
+
+.masthead,
+.greedy-nav,
+.sidebar {
+  font-size: 0.9em;
+}
+
+/* Author profile and avatar sizing. */
+.author__avatar {
+  display: block;
+  width: 260px;
+  height: auto;
+
+  img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+  }
+}
+
+.sidebar .author__avatar,
+.sidebar .author__avatar img {
+  width: 260px;
+  max-width: none;
+}
+
+.author__content {
+  margin-top: 0.75rem;
+}
+
+.author__name {
+  font-size: 1.05em;
+}
+
+.author__bio {
+  font-size: 0.85em;
+  line-height: 1.5;
+}
